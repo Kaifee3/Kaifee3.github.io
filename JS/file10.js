@@ -28,9 +28,23 @@ console.log(cart);
 console.log(`Incremented one more quantify of Product 1 to cart`)
 increment(1)
 console.log(cart);
+console.log(`Incremented one more quantify of Product 3 to cart`)
+console.log(cart);
 console.log(`Decremented one quantify of Product 1 from cart`)
 decrement(1)
 console.log(cart);
+
+console.log(`Added Product 2 to cart`)
+addToCart(2);
+console.log(cart)
+console.log(`Incremented one more quantify of Product 2 to cart`)
+increment(2)
+increment(2)
+increment(2)
+increment(2)
+increment(2)
+console.log(cart);
+
 console.log("Display Cart with Product Details")
 products.map(value=>{
     cart[value.id] && console.log(`${value.name}-$${value.price}-${cart[value.id]}-$${value.price*cart[value.id]}`)
