@@ -13,7 +13,7 @@ app.post("/", (req, res) => {
     price,
   };
   products.push(obj);
-  res.json({ message: "Product created" });
+  res.json({ message: "Product created " });
 });
 app.get("/", (req, res) => {
   res.json(products);
