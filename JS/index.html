@@ -3,11 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>JavaScript Class</title>
   </head>
-  <body>
-    <h1>JavaScript Class</h1>
-    <ol>
+  <body
+    style="margin:0; padding:0; height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center; background:linear-gradient(45deg,#ff9a9e, #fad0c4, #fbc2eb, #a18cd1, #84fab0,
+        #8fd3f4, #c2e9fb, #e0c3fc, #fccb90, #f6d365,
+        #ffecd2, #fcb69f, #d4fc79, #96e6a1, #a1c4fd,
+        #c2e9fb, #e0c3fc, #ffdde1, #ee9ca7, #ff6a88); background-size:400% 400%; animation:gradientBG 15s ease infinite; font-family:Arial, sans-serif; color:white;"
+  >
+
+    <h1 style="background:rgba(0,0,0,0.5); padding:15px 25px; border-radius:10px; margin-bottom:15px;">
+      📘 JavaScript Class
+    </h1>
+
+    <!-- GitHub Link -->
+    <a href="https://github.com/Kaifee3/Kaifee3.github.io/tree/main/JS" target="_blank"
+       style="display:inline-block; background:#000; color:white; padding:10px 20px; border-radius:8px; text-decoration:none; font-weight:bold; margin-bottom:20px;">
+       📂 View on GitHub
+    </a>
+
+    <ol
+      style="background:rgba(0,0,0,0.4); padding:20px 40px; border-radius:10px; font-size:1.2rem; line-height:2; margin-bottom:20px;"
+    >
       <li>Introduction to JavaScript</li>
       <li>Operators</li>
       <li>Conditional Statement</li>
@@ -19,7 +36,32 @@
       <li>Arrays and Methods</li>
       <li>Shopping Cart Logic</li>
     </ol>
-    <h1>Project</h1>
-    <li><a href="./shoppingcart/index.html">Shoppingcart</a></li>
+
+    <h1 style="background:rgba(0,0,0,0.5); padding:10px 20px; border-radius:10px; margin-bottom:10px;">
+      🚀 Project
+    </h1>
+
+    <a
+      href="./shoppingcart/index.html"
+      style="text-decoration:none; color:white; background:rgba(0,0,0,0.5); padding:12px 20px; border-radius:10px; transition:0.3s; font-size:1.1rem;"
+      onmouseover="this.style.background='rgba(0,0,0,0.7)'; this.style.color='#ffeb3b'; this.style.transform='scale(1.05)';"
+      onmouseout="this.style.background='rgba(0,0,0,0.5)'; this.style.color='white'; this.style.transform='scale(1)';"
+    >
+      🛒 View Shopping Cart
+    </a>
+
+    <style>
+      @keyframes gradientBG {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+      ol li:hover {
+        color: #ffeb3b;
+        transform: scale(1.05);
+        transition: 0.3s;
+      }
+    </style>
+
   </body>
 </html>

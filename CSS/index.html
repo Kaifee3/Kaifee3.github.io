@@ -3,24 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>CSS Class</title>
   </head>
-  <body>
-    <h1>CSS Class</h1>
-    <ol>
-      <li><a href="index1.html">Basic Concepts and Box Model</a></li>
-      <li><a href="index2.html">Flexbox and Grid</a></li>
-      <li><a href="index3.html">Responsive Design</a></li>
-      <li><a href="index4.html">Transformation and Transition</a></li>
+  <body 
+    style="margin:0; padding:0; height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center; background:linear-gradient(45deg,#ff9a9e, #fad0c4, #fbc2eb, #a18cd1, #84fab0,
+        #8fd3f4, #c2e9fb, #e0c3fc, #fccb90, #f6d365,
+        #ffecd2, #fcb69f, #d4fc79, #96e6a1, #a1c4fd,
+        #c2e9fb, #e0c3fc, #ffdde1, #ee9ca7, #ff6a88); background-size:400% 400%; animation:gradientBG 15s ease infinite; font-family:Arial, sans-serif; color:white;"
+  >
+
+    <h1 style="background:rgba(0,0,0,0.5); padding:15px 25px; border-radius:10px; margin-bottom:20px;">
+      🎨 CSS Class
+    </h1>
+
+    <!-- GitHub Link -->
+    <a href="https://github.com/Kaifee3/Kaifee3.github.io/tree/main/CSS" target="_blank"
+       style="display:inline-block; background:#000; color:white; padding:10px 20px; border-radius:8px; text-decoration:none; font-weight:bold; margin-bottom:20px; transition:0.3s;"
+       onmouseover="this.style.background='rgba(0,0,0,0.8)'; this.style.color='#ffeb3b';"
+       onmouseout="this.style.background='#000'; this.style.color='white';">
+       📂 View on GitHub
+    </a>
+
+    <ol style="background:rgba(0,0,0,0.4); padding:20px 40px; border-radius:10px; font-size:1.2rem; line-height:2; margin-bottom:20px;">
+      <li><a href="index1.html" style="color:white; text-decoration:none;">Basic Concepts and Box Model</a></li>
+      <li><a href="index2.html" style="color:white; text-decoration:none;">Flexbox and Grid</a></li>
+      <li><a href="index3.html" style="color:white; text-decoration:none;">Responsive Design</a></li>
+      <li><a href="index4.html" style="color:white; text-decoration:none;">Transformation and Transition</a></li>
     </ol>
-    <h1>Projects</h1>
-    <ol>
-      <li>
-        <a href="./foodmart/index.html">Foodmart</a>
-      </li>
-      <li>
-        <a href="./portfolio/index.html">Portfolio</a>
-      </li>
+
+    <h1 style="background:rgba(0,0,0,0.5); padding:10px 20px; border-radius:10px; margin-bottom:10px;">
+      🚀 Projects
+    </h1>
+
+    <ol style="background:rgba(0,0,0,0.4); padding:20px 40px; border-radius:10px; font-size:1.2rem; line-height:2;">
+      <li><a href="./foodmart/index.html" style="color:white; text-decoration:none;">Foodmart</a></li>
+      <li><a href="./portfolio/index.html" style="color:white; text-decoration:none;">Portfolio</a></li>
     </ol>
+
+    <style>
+      @keyframes gradientBG {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+      ol li a:hover {
+        color: #ffeb3b;
+        text-decoration: underline;
+        transition: 0.3s;
+      }
+    </style>
+
   </body>
 </html>

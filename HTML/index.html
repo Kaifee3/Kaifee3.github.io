@@ -3,22 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>HTML Class</title>
   </head>
-  <body>
-    <h1>HTML Class</h1>
-    <ol>
-      <li><a href="index1.html">Introduction to HTML</a></li>
-      <li><a href="index2.html">Basic and Formatting Tags</a></li>
-      <li><a href="index3.html">Form Tags</a></li>
-      <li><a href="index4.html">Images and Multimedia</a></li>
-      <li><a href="index5.html">Internal Links</a></li>
-      <li><a href="index6.html">External Links and Iframe</a></li>
-      <li><a href="index7.html">Semantic Tags</a></li>
-      <li><a href="index8.html">List and Table Tags</a></li>
-      <li><a href="index9.html">Details and Summary Tags</a></li>
-      <li><a href="index10.html">Map Tag</a></li>
+  <body 
+    style="margin:0; padding:0; height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center; background:linear-gradient(45deg,#ff9a9e, #fad0c4, #fbc2eb, #a18cd1, #84fab0,
+        #8fd3f4, #c2e9fb, #e0c3fc, #fccb90, #f6d365,
+        #ffecd2, #fcb69f, #d4fc79, #96e6a1, #a1c4fd,
+        #c2e9fb, #e0c3fc, #ffdde1, #ee9ca7, #ff6a88); background-size:400% 400%; animation:gradientBG 15s ease infinite; font-family:Arial, sans-serif; color:white;"
+  >
+
+    <h1 style="background:rgba(0,0,0,0.5); padding:15px 25px; border-radius:10px; margin-bottom:20px;">
+      📄 HTML Class
+    </h1>
+
+    <!-- GitHub Link -->
+    <a href="https://github.com/Kaifee3/Kaifee3.github.io/tree/main/HTML" target="_blank"
+       style="display:inline-block; background:#000; color:white; padding:10px 20px; border-radius:8px; text-decoration:none; font-weight:bold; margin-bottom:20px; transition:0.3s;"
+       onmouseover="this.style.background='rgba(0,0,0,0.8)'; this.style.color='#ffeb3b';"
+       onmouseout="this.style.background='#000'; this.style.color='white';">
+       📂 View on GitHub
+    </a>
+
+    <ol style="background:rgba(0,0,0,0.4); padding:20px 40px; border-radius:10px; font-size:1.2rem; line-height:2;">
+      <li><a href="index1.html" style="color:white; text-decoration:none;">Introduction to HTML</a></li>
+      <li><a href="index2.html" style="color:white; text-decoration:none;">Basic and Formatting Tags</a></li>
+      <li><a href="index3.html" style="color:white; text-decoration:none;">Form Tags</a></li>
+      <li><a href="index4.html" style="color:white; text-decoration:none;">Images and Multimedia</a></li>
+      <li><a href="index5.html" style="color:white; text-decoration:none;">Internal Links</a></li>
+      <li><a href="index6.html" style="color:white; text-decoration:none;">External Links and Iframe</a></li>
+      <li><a href="index7.html" style="color:white; text-decoration:none;">Semantic Tags</a></li>
+      <li><a href="index8.html" style="color:white; text-decoration:none;">List and Table Tags</a></li>
+      <li><a href="index9.html" style="color:white; text-decoration:none;">Details and Summary Tags</a></li>
+      <li><a href="index10.html" style="color:white; text-decoration:none;">Map Tag</a></li>
     </ol>
-    
+
+    <style>
+      @keyframes gradientBG {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+      ol li a:hover {
+        color: #ffeb3b;
+        text-decoration: underline;
+        transition: 0.3s;
+      }
+    </style>
+
   </body>
 </html>
